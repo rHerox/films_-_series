@@ -1,0 +1,66 @@
+@font-face {
+   font-family: Kanit;
+   src: url(Fonts4/Kanit-Regular.ttf);
+}
+
+@font-face {
+   font-family: MainPoints;
+   src: url(Fonts4/JosefinSans-Medium.ttf);
+}
+
+
+#Heading {
+
+   background-color: darkseagreen;
+   width: 14.23vw;
+   height: 4.72vw;
+   display: inline-block;
+   position: relative;
+   border: 0.514vw ridge black;
+   margin: 1.45vw 40.38vw 0vw;
+   padding: 0vw 0.54vw 1.1vw;
+}
+
+#Heading p {
+   text-align: center;
+   font-variant: small-caps;
+   font-family: Kanit;
+   color: black;
+   font-weight: 600;
+   font-size: 1.2vw;
+
+
+}
+
+
+#Weblinks-Container {
+   background-color: darkseagreen;
+   display: inline-grid;
+   padding: 5.8vw 1.5vw 1.6vw;
+   border: 0.55vw ridge black;
+   margin: -3.6vw 38.1345vw;
+   width: 16.81vw;
+   row-gap: 0.65vw;
+}
+
+.Episodes a {
+   text-decoration: none;
+   color: black;
+
+}
+
+.Episodes {
+   background-color: cornflowerblue;
+   text-align: center;
+   font-variant: small-caps;
+   font-family: MainPoints;
+   font-weight: 600;
+   border: 0.23vw solid black;
+   border-radius: 1.27vw;
+   width: 12.06vw;
+   height: 4.77vw;
+   margin: 0vw auto;
+   font-size: 1.6vw;
+
+
+}

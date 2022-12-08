@@ -1,0 +1,209 @@
+body {
+   background-color: cornsilk;
+}
+
+@font-face {
+   font-family: Kanit;
+   src: url(Fonts3/Kanit-SemiBold.ttf);
+}
+
+@font-face {
+   font-family: MainPoints;
+   src: url(Fonts3/JosefinSans-Medium.ttf);
+}
+
+#Resolution {
+   height: 43.9vw;
+   width: 58.58vw;
+   background-color: lightpink;
+   margin: 3vw 0vw 3vw 19.77vw;
+   position: relative;
+   border-radius: 2vw;
+
+}
+
+#Quality {
+   height: 13.81vw;
+   position: absolute;
+   bottom: 11.577vw;
+   right: 17.7vw;
+   border-left: 0.93vw ridge black;
+}
+
+
+
+#ImgHolder {
+   /* width: 18.3vw;
+   height: 350px; */
+   margin: 0vw 0vw 0vw 2.54vw;
+   position: absolute;
+   top: 4.798vw;
+   left: 1.55vw;
+
+}
+
+#ImgHolder img {
+   width: 18.3vw;
+   border: 0.55vw ridge wheat;
+}
+
+
+#Qual-480p {
+   background-color: teal;
+   border-radius: 0.87vw;
+   width: 12.1351vw;
+   height: 4.7246vw;
+   position: absolute;
+   right: 20.35vw;
+   top: 20.9vw;
+   text-align: center;
+   font-family: Kanit;
+   /* font-size: 25px; */
+   font-size: 1.77vw;
+   border: 0.22vw solid black;
+}
+
+#Qual-480p p {
+   /* margin: 13px 0px 0px 0px; */
+   margin: 0.93vw 0vw 0vw 0vw;
+   text-align: center;
+   color: black;
+}
+
+#Qual-480p {
+   text-decoration: none;
+}
+
+#Qual-480p:hover {
+   transform: perspective(300px) translate3d(0px, 0px, -25px);
+   transition-property: transform;
+   transition-duration: 9ms;
+   cursor: pointer;
+}
+
+#Qual-720p {
+   background-color: teal;
+   border-radius: 0.87vw;
+   width: 12.1351vw;
+   height: 4.7246vw;
+   position: absolute;
+   right: 3.35vw;
+   top: 20.9vw;
+   text-align: center;
+   font-family: Kanit;
+   /* font-size: 25px; */
+   font-size: 1.77vw;
+   border: 0.22vw solid black;
+
+}
+
+#Qual-720p p {
+   /* margin: 13px 0px 0px 0px; */
+   margin: 0.93vw 0vw 0vw 0vw;
+   text-align: center;
+   color: black;
+
+}
+
+#Qual-720p {
+   text-decoration: none;
+}
+
+
+#Qual-720p:hover {
+   transform: perspective(300px) translate3d(0px, 0px, -25px);
+   transition-property: transform;
+   transition-duration: 9ms;
+   cursor: pointer;
+}
+
+
+#ImgPreview1 {
+   background-color: teal;
+   border-radius: 0.87vw;
+   width: 12.1351vw;
+   height: 4.7246vw;
+   position: absolute;
+   right: 20.35vw;
+   top: 27.052vw;
+   text-align: center;
+   font-family: Kanit;
+   /* font-size: 25px; */
+   font-size: 1.77vw;
+   border: 0.22vw solid black;
+}
+
+#ImgPreview1 p {
+   /* margin: 13px 0px 0px 0px; */
+   margin: 0.93vw 0vw 0vw 0vw;
+   text-align: center;
+}
+
+#ImgPreview1:hover {
+   transform: perspective(300px) translate3d(0px, 0px, -25px);
+   transition-property: transform;
+   transition-duration: 9ms;
+   cursor: pointer;
+}
+
+
+#ImgPreview {
+   background-color: teal;
+   border-radius: 0.87vw;
+   width: 12.1351vw;
+   height: 4.7246vw;
+   position: absolute;
+   right: 3.35vw;
+   top: 27.052vw;
+   text-align: center;
+   font-family: Kanit;
+   /* font-size: 25px; */
+   font-size: 1.77vw;
+   border: 0.22vw solid black;
+}
+
+#ImgPreview p {
+   /* margin: 13px 0px 0px 0px; */
+   margin: 0.93vw 0vw 0vw 0vw;
+   text-align: center;
+}
+
+#ImgPreview:hover {
+   transform: perspective(300px) translate3d(0px, 0px, -25px);
+   transition-property: transform;
+   transition-duration: 9ms;
+   cursor: pointer;
+}
+
+
+#film-description {
+   background-color: cornsilk;
+   border-top-right-radius: 3.28vw;
+   border-bottom-left-radius: 3.15vw;
+   width: 29.421vw;
+   height: 10.214vw;
+   position: absolute;
+   right: 2.911vw;
+   top: 7vw;
+   font-family: MainPoints;
+   text-align: center;
+   font-size: 1.26vw;
+   font-weight: 600;
+   border: 0.7vw double black;
+
+}
+
+#film-description ul {
+   position: absolute;
+   top: 1vw;
+   text-align: left;
+}
+
+#ThankYou p {
+   position: absolute;
+   bottom: 0.33vw;
+   font-family: Kanit;
+   font-weight: 500;
+   font-size: 1.55vw;
+   left: 20.81vw;
+}
