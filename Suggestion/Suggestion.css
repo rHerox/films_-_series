@@ -1,0 +1,65 @@
+@font-face {
+   font-family: Kanit;
+   src: url(Fonts3/Kanit-Regular.ttf);
+}
+
+@font-face {
+   font-family: MainPoints;
+   src: url(Fonts3/JosefinSans-Medium.ttf);
+}
+
+
+#Suggest {
+   height: 8.85vw;
+   width: 53.83vw;
+   background-color: wheat;
+   font-family: MainPoints;
+   margin: 17.33vw 22vw;
+   padding: 1.05vw;
+   position: relative;
+   border-top-right-radius: 4.3vw;
+   border-bottom-left-radius: 4vw;
+   /* font-size: 1.174vw; */
+   font-size: 1.16vw;
+}
+
+#Label {
+   background-color: darksalmon;
+   height: 2.181vw;
+   color: wheat;
+   width: 7.391vw;
+   text-align: center;
+   padding: 0.35vw 0vw 0vw 0vw;
+   position: absolute;
+   bottom: 9.794vw;
+   left: 4.7vw;
+   border-radius: 0.61vw;
+   font-family: Kanit;
+   font-size: 1.166vw;
+
+}
+
+#email-botton {
+   background-color: teal;
+   height: 2.6vw;
+   color: white;
+   width: 8.06vw;
+   text-align: center;
+   font-family: Kanit;
+   position: absolute;
+   left: 23.7vw;
+   bottom: -4.25vw;
+   border-radius: 0.73vw;
+   padding: 0.63vw 0vw 0vw 0vw;
+   text-decoration: none;
+   font-size: 1.191vw;
+
+}
+
+#email-botton:hover {
+   transform: perspective(300px) translate3d(0px, 0px, 23px);
+   transition-property: transform;
+   transition-duration: 9ms;
+   cursor: pointer;
+
+}

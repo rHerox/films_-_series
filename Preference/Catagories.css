@@ -1,0 +1,101 @@
+#Parent-ImgHolder {
+
+   height: 1500px;
+   background-color: thistle;
+   display: flex;
+   justify-content: space-around;
+   padding: 55px;
+   /* align-content: space-around; */
+   flex-wrap: wrap;
+   display: relative;
+
+}
+
+#One {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Two {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Three {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Four {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Five {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Six {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Seven {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Eight {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Nine {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Ten {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Eleven {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Tweleve {
+   height: 350px;
+   width: 250px;
+   background-color: lightcyan;
+
+}
+
+#Thank_You {
+   position: absolute;
+   top: 1530px;
+}

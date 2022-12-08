@@ -1,0 +1,209 @@
+@font-face {
+   font-family: Kanit;
+   src: url(Fonts2/Kanit-Regular.ttf);
+}
+
+@font-face {
+   font-family: MainPoints;
+   src: url(Fonts2/JosefinSans-Medium.ttf)
+}
+
+
+
+body {
+   /* background-color: black; */
+}
+
+
+.Catagories {
+
+   height: 47.6vw;
+   width: 65.94vw;
+   background-color: wheat;
+   /* margin: -0.2vw 0vw 0vw 18vw; */
+   margin: -0.2vw 0vw 0vw 14.82vw;
+
+   position: relative;
+   justify-content: center;
+   align-content: space-around;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#description1 {
+   background-color: snow;
+   font-family: Kanit;
+   font-weight: 40px;
+   border: 0.4vw ridge black;
+   height: 7.7vw;
+   width: 36.5vw;
+   border-top-right-radius: 3vw;
+   border-bottom-left-radius: 2.5vw;
+   padding: 0.2vw;
+   margin: 1.2vw 14vw;
+   font-size: 1.15vw;
+}
+
+#description2 {
+   background-color: snow;
+   padding: 0vw 0.01vw 1.15vw;
+   font-family: Kanit;
+   font-weight: 40px;
+   border: 0.4vw ridge black;
+   height: 7.7vw;
+   width: 36.5vw;
+   border-top-right-radius: 3vw;
+   border-bottom-left-radius: 2.5vw;
+   /* padding: 0.2vw; */
+   margin: 1.2vw 14vw;
+   /* word-spacing: 10px; */
+   line-height: 1.47vw;
+   font-size: 1.15vw;
+}
+
+#description3 {
+   background-color: snow;
+   font-family: Kanit;
+   font-weight: 40px;
+   border: 0.4vw ridge black;
+   height: 7.7vw;
+   width: 36.5vw;
+   border-top-right-radius: 3vw;
+   border-bottom-left-radius: 2.5vw;
+   padding: 0.2vw;
+   margin: 1.2vw 14vw;
+   font-size: 1.15vw;
+}
+
+#description4 {
+   background-color: snow;
+   border: 5px ridge black;
+   padding: 0vw 0vw 0.2vw 0.2vw;
+   font-family: Kanit;
+   font-weight: 40px;
+   border: 0.4vw ridge black;
+   height: 7.7vw;
+   width: 36.5vw;
+   border-top-right-radius: 3vw;
+   border-bottom-left-radius: 2.5vw;
+   /* padding: 0.2vw; */
+   margin: 1.2vw 14vw;
+   /* line-height: 1.47vw; */
+   font-size: 1.15vw;
+}
+
+#botton1 {
+   background-color: teal;
+   position: absolute;
+   display: inline-block;
+   height: 3.66vw;
+   width: 13.82vw;
+   border: 0.4vw ridge black;
+   border-radius: 1.1vw;
+   /* left: 200px; */
+   /* left: 14.566vw; */
+   margin: 0vw 0vw 0vw 10.88vw;
+   bottom: 35.4vw;
+   /* text-decoration-color: none; */
+
+}
+
+#botton2 {
+   background-color: teal;
+   position: absolute;
+   display: inline-block;
+   bottom: 23vw;
+   height: 3.66vw;
+   width: 13.82vw;
+   border: 0.4vw ridge black;
+   border-radius: 1.1vw;
+   /* left: 200px; */
+   left: 14.566vw;
+   margin: 0vw 0vw 0vw 10.88vw;
+
+}
+
+#botton3 {
+   background-color: teal;
+   position: absolute;
+   display: inline-block;
+   bottom: 11.06vw;
+   height: 3.66vw;
+   width: 13.82vw;
+   border: 0.4vw ridge black;
+   border-radius: 1.1vw;
+   /* left: 200px; */
+   /* left: 14.566vw; */
+   margin: 0vw 0vw 0vw 10.88vw;
+}
+
+#botton4 {
+   background-color: teal;
+   position: absolute;
+   display: inline-block;
+   bottom: -0.5vw;
+   height: 3.66vw;
+   width: 13.82vw;
+   border: 0.4vw ridge black;
+   border-radius: 1.1vw;
+   /* left: 200px; */
+   /* left: 14.566vw; */
+   margin: 0vw 0vw 0vw 10.88vw;
+
+}
+
+#botton1 p {
+
+   text-align: center;
+   font-family: Kanit;
+   color: white;
+   text-decoration: none;
+}
+
+#botton1:hover {
+   transform: perspective(300px) translate3d(0px, 0px, 21px);
+   transition-property: transform;
+   transition-duration: 9ms;
+}
+
+#botton2 p {
+
+   text-align: center;
+   font-family: Kanit;
+   color: white;
+   text-decoration: none;
+}
+
+#botton2:hover {
+   transform: perspective(300px) translate3d(0px, 0px, 21px);
+   transition-property: transform;
+   transition-duration: 9ms;
+}
+
+#botton3 p {
+
+   text-align: center;
+   font-family: Kanit;
+   text-decoration: none;
+   color: white;
+}
+
+#botton3:hover {
+   transform: perspective(300px) translate3d(0px, 0px, 21px);
+   transition-property: transform;
+   transition-duration: 9ms;
+}
+
+#botton4 p {
+
+   text-align: center;
+   font-family: Kanit;
+   text-decoration: none;
+   color: white;
+}
+
+#botton4:hover {
+   transform: perspective(300px) translate3d(0px, 0px, 21px);
+   transition-property: transform;
+   transition-duration: 9ms;
+}
